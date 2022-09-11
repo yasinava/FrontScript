@@ -1,0 +1,103 @@
+.SignUpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgContainer {
+  width: 500px;
+  border-radius: 25px;
+  box-shadow: 0 40px 100px 10px #1655792d;
+  margin: 0 0 380px;
+}
+.buttonSign button {
+  font-weight: bold;
+  color: #fff;
+  background-color: #165479;
+  margin: 50px 15px 30px;
+  box-shadow: 0 4px 10px 1px #16557952;
+}
+.buttonSign button:hover {
+  background-color: #0c4668;
+  color: #fff;
+}
+.buttonSign button[name="login"] {
+  color: #165479;
+  border: 2px solid #165479;
+  background-color: #fff;
+}
+.buttonSign img {
+  width: 25px;
+}
+.logoSign {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.formField {
+  width: 100%;
+  height: 80px;
+}
+.formField span {
+  color: rgba(255, 0, 0, 0.747);
+}
+.border {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #0b2f444f;
+  border-radius: 5px;
+  outline: none;
+}
+.border:hover {
+  border: 1px solid #348091;
+}
+.redBorder {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.712);
+  border-radius: 5px;
+  outline: none;
+}
+.submitButton button {
+  background-color: #165479;
+  color: #fff;
+  font-weight: bold;
+  margin: 40px 0px;
+  box-shadow: 0 4px 10px 1px #16557952;
+}
+.submitButton button:hover {
+  background-color: #0c4668;
+  color: #fff;
+}
+
+.buttonLogin button {
+  font-weight: bold;
+  color: #165479;
+  background-color: #fff;
+  margin: 50px 15px 30px;
+  border: 2px solid #165479;
+}
+.buttonLogin button[name="login"]:hover {
+  background-color: #07344e;
+  color: #fff;
+}
+.buttonLogin button[name="login"] {
+  color: #fff;
+  background-color: #0c4668;
+  box-shadow: 0 4px 10px 1px #16557952;
+}
+.buttonLogin img {
+  width: 25px;
+}
+
+.success{
+  margin-top: 80px;
+  height: 200px;
+  box-shadow: 0 15px 9px 0 #16557952;
+  border-radius: 15px; 
+}
+@media(max-width:600px){
+  .bgContainer {
+    width: 70%;
+  }
+}

@@ -1,0 +1,140 @@
+.DoreContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 80px;
+}
+.DoreContainer button {
+  font-size: 25px;
+}
+.cardsContainer {
+  /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 22px;
+  margin: 50px 130px;
+}
+.cardContainer {
+  width: 250px;
+  height: 380px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px 7px #3480911c;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  height: 190px;
+}
+.logoJS {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.logoJS img {
+  width: 50px;
+}
+.body img {
+  width: 15px;
+  margin-left: 5px;
+}
+.timeBody {
+  display: flex;
+  justify-content: end;
+  color: #348091;
+  margin: 30px 10px 20px;
+}
+.priceBody {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.568);
+  padding-bottom: 20px;
+}
+.buttonFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.buttonFooter img {
+  width: 15px;
+}
+.buttonFooter button {
+  color: #348091;
+  border: none;
+}
+.buttonFooter button:hover {
+  color: #348091;
+}
+.buttonFooter button[name="sign"] {
+  background-color: #348091;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.buttonFooter button[name="sign"]:hover {
+  background-color: #39b481;
+}
+.members {
+  background-color: rgba(192, 192, 192, 0.322);
+  padding: 0 10px;
+  border-radius: 50px;
+}
+.buttonFooter button[name="button"] {
+  border: 2px solid #348091;
+  font-weight: bold;
+  background-color: #fff;
+}
+.detailsCard button {
+  font-size: 14px;
+}
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 200px;
+  padding: 20px;
+  text-align: right;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px 7px #3480911c;
+  font-weight: bold;
+}
+.buttonPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonPrice button[name="btn"] {
+  border: 1px solid rgba(0, 128, 0, 0.445);
+  font-weight: bold;
+  color: green;
+  border-radius: 15px;
+}
+.buttonPrice button[name="btn"]:hover {
+  background-color: rgba(113, 255, 47, 0.116);
+}
+.logoDetails {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.logoDetails img {
+  width: 50px;
+}
+@media (max-width: 900px) {
+    .cardsContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 250px);
+        grid-gap: 22px;
+        margin: 50px 10px;
+        justify-content: center;
+      }
+}

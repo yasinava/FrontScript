@@ -1,0 +1,27 @@
+.container {
+  text-align: right;
+  margin: 25px 50px 280px;
+}
+.container h2 {
+  font-weight: bold;
+  margin: 40px 5px 20px 0;
+}
+.container p {
+  color: rgb(131, 131, 131);
+  font-weight: 600;
+  margin: 10px 0 40px;
+}
+.container span {
+  background-color: rgba(216, 216, 216, 0.521);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.nazarat {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

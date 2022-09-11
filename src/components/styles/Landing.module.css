@@ -1,0 +1,90 @@
+.bannerContainer{
+    display: flex;   
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0 50px;
+}
+.bannerContainer img{
+    width: 100%;
+}
+.bannerImage{
+    width: 75%;
+}
+.bannerContainer div >h1{
+    font-size: 60px;
+    font-weight: bold;  
+}
+.textLanding{
+    width: 630px;
+}
+.buttonsContainer button{
+    padding:15px 40px ;
+    font-weight: bold;
+    color: #fff;
+border-radius: 20px;
+background-color: #348091;
+}
+.buttonsContainer button:hover{
+    color: #fff;
+background-color: #176573;
+}
+.buttonsContainer button[type='button']{
+    background-color: #fff;
+    color: #348091;
+    border: 2px solid #348091;
+}
+.buttonsContainer button[type='button']:hover{
+    color: #176573;
+    border:2px solid #176573;
+}
+.buttonsContainer button > img{
+    width: 22px;
+    margin-right: 4px;
+}
+.arrowLogo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0px 100px 20px;
+}
+.arrowLogo >img{
+    margin-right: 100px;
+}
+.arrowLogo button > img{
+    width: 20px;
+    margin-right: 5px;
+}
+.arrowLogo button{
+    font-size: 20px;
+    color: #287a88;
+}
+@media(max-width:900px){
+    .bannerContainer{
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+    }
+    .bannerImage{
+        width: 100%;
+    }
+    .textLanding{
+        width: 100%;
+    }
+    .arrowLogo >img{
+       display: none;
+    }
+    .arrowLogo{
+        margin: 40px 50px;
+    }
+}
+@media(max-width:500px){
+    .buttonsContainer button{
+        padding:15px 20px ;
+        font-weight: bold;
+        color: #fff;
+        border-radius: 20px;
+        background-color: #348091;
+    }
+}

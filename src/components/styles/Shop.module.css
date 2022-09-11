@@ -1,0 +1,142 @@
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+width: 100%;
+  margin-top: 50px;
+  align-items: center;
+  margin-bottom: 150px;
+
+}
+.emptyContainer img {
+  width: 15%;
+}
+.emptyContainer button {
+  width: 100%;
+  padding: 11px 50px;
+  border-radius: 13px;
+  margin-top: 45px;
+}
+.shopContainer {
+  display: flex;
+  justify-content: center;
+}
+.priceContainer{
+  text-align: right;
+    width: 400px;
+}
+.prices {
+  text-align: center;
+  margin-top: 20px;
+    background-color: #fff;
+padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px 7px #34809128;
+}
+.prices div{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+margin: 0px 0 40px;
+border-bottom: 1px solid rgba(192, 192, 192, 0.342);
+}
+.listContainer{
+    width: 700px;
+  text-align: right;
+  margin-bottom: 300px;
+    margin-left: 22px;
+}
+
+.shopCardContainer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius:15px ;
+  box-shadow: 0 10px 25px 7px #34809128;
+
+}
+.logoJs{
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.logoJs img{
+  width: 80px;
+}
+.details{
+  text-align: right;
+  width: 400px;
+  margin: 0;
+}
+.checkout{
+  width: 500px;
+  height: 200px;
+  margin: 100px auto 200px;
+  padding: 30px;
+  border-radius:15px ;
+  box-shadow: 0 10px 25px 7px #34809128;
+}
+.courseContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow:0 10px 25px 7px #34809128;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 20px 25px;
+}
+.logoCourse{
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.logoCourse img{
+  width: 50px;
+}
+.details2{
+  text-align: right;
+  width: 700px;
+  margin: 0;
+}
+@media(max-width:1000px){
+  .shopContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .priceContainer{
+    width: 80%;
+    margin-bottom: 70px;
+  }
+  .listContainer{
+    width: 90%;
+    margin: 10px;
+    margin-bottom: 250px;
+  }
+  .shopCardContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius:15px ;
+    box-shadow: 0 10px 25px 7px #34809128;
+  position: relative;
+  }
+  .shopCardContainer button{
+    position:absolute;
+   left: 30px;
+  }
+  .details{
+    text-align: right;
+    width: 100%;
+    margin: 0;
+  }
+}

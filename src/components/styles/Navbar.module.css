@@ -1,0 +1,124 @@
+
+.NavbarContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  font-weight: bold;
+  z-index: 20;
+}
+
+/* color */
+/* {
+#002429
+#002d33
+#01515c
+#176573
+#348091
+} */
+.sign {
+  display: flex;
+  align-items: center;
+}
+.sign button {
+  background-color: rgba(210, 231, 250, 0.671);
+  color: #023b5c;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 15px;
+  position: relative;
+}
+.sign img {
+  width: 25px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu div:hover {
+  color: #348091;
+}
+.logo img {
+  width: 80px;
+}
+.sign span[name="badge"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hamburgerMenu {
+  display: none;
+}
+.listMenu {
+  display: none;
+}
+.disListMenu {
+  position: fixed;
+  height: 100%;
+  background-color: #176573;
+  width: 250px;
+  top: 0;
+  right: -250px;
+  transition: all 1s;
+}
+.buttonClose {
+  width: 100%;
+  height: 60px;
+  text-align: left;
+  border-bottom: 1px solid silver;
+}
+.buttonClose button {
+  margin-right: 195px;
+}
+.buttonClose span {
+  font-size: 40px;
+}
+.buttonMenuLogo img {
+  width: 30px;
+  margin-left: 5px;
+}
+.buttonMenuLogo button {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+@media (max-width: 900px) {
+  .NavbarContainer {
+    justify-content: space-between;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .listMenu {
+    display: inline-block;
+    position: fixed;
+    height: 100%;
+    background-color: #d5fffc;
+    box-shadow:-5px 0 70px 1px #015d79c7;
+    width: 250px;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+  }
+  .hamburgerMenu {
+    display: inline-block;
+  }
+}
