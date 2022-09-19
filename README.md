@@ -1,5 +1,5 @@
-# visit site click
-[click](https://marvelous-paletas-117bd6.netlify.app)
+# visit site
+[FrontScript](https://marvelous-paletas-117bd6.netlify.app)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
